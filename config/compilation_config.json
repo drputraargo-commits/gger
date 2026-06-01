@@ -1,0 +1,10 @@
+{
+  "input_model": "s3://my-bucket/models/model.tar.gz",
+  "framework": "tensorflow",
+  "framework_version": "2.13",
+  "target_device": "ml_c5",
+  "output_path": "s3://my-bucket/compiled-models/",
+  "input_shape": "{'input': [1, 224, 224, 3]}",
+  "optimization_level": "O3",
+  "compile_timeout": 3600
+}
